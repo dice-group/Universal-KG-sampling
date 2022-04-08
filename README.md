@@ -6,5 +6,7 @@ As the DBpedia dataset has many similarities to real-world KGs, experiments can 
 
 ### sameAS relation based Sampling
 The proposed algorithm is based on the relation:sameAS finding the set of EN-FR entity linkings from the original DBpedia-EN and DBpedia-FR, for each entity there is at least one set of relationship triples, the following diagram depicts the sampling process.
-
+<p>
+  <img width="50%" src="" />
+</p>
 
