@@ -5,7 +5,7 @@ Samping from the DBPedia-EN and DBPedia-FR
 As the DBpedia dataset has many similarities to real-world KGs, experiments can better simulate the problems present in real-world KGs if we are conducted using the relatively large DBpedia dataset. We therefore chose one SameAS based sampling algorithm to generate dataset based on the alignment of the embedded entities.
 
 ### SameAS based Sampling
-The proposed algorithm is based on the relation:sameAS finding the set of EN-FR entity linkings from the original DBpedia-EN and DBpedia-FR, for each entity there is at least one set of relationship triples, the following diagram depicts the sampling process.
+The proposed algorithm is based on the relation:SameAS finding the set of English--French entity linkings from the original DBpedia-EN and DBpedia-FR, for each entity there is at least one set of relationship triples, the following diagram depicts the sampling process.
 <p>
   <img width="50%" src="https://github.com/dice-group/Universal-KG-sampling/blob/main/sampling.png" />
 </p>
@@ -14,8 +14,8 @@ The proposed algorithm is based on the relation:sameAS finding the set of EN-FR 
 We choose one well-known KG as our sources: DBpedia (2016-10) Also, We consider a cross-lingual version of DBpedia. the first is English--French. We use the SameAs algorithm to sample the original English--French entity set.
 
 ### The specific process of sampling and the data obtained
-* Get the original EN-FR data set from DBpedia, including entities and relation triples.
-* Find the SameAS relation between EN_FR entities and FR_EN entities, ensure the entities are present in both KGs. EN_FR entities can be computed from http://downloads.dbpedia.org/2016-10/core-i18n/en/interlanguage_links_en.ttl.bz2 ,FR_EN entities can be computed from http://downloads.dbpedia.org/2016-10/core-i18n/fr/interlanguage_links_fr.ttl.bz2
+* Get the original data set from DBpedia, including entities and relation triples.
+* Find the SameAS relation between English--French(EN-FR) entities and French--English(FR-EN) entities, ensure the entities are present in both KGs. EN-FR entities can be computed from http://downloads.dbpedia.org/2016-10/core-i18n/en/interlanguage_links_en.ttl.bz2 ,FR-EN entities can be computed from http://downloads.dbpedia.org/2016-10/core-i18n/fr/interlanguage_links_fr.ttl.bz2
 
 Raw Entities | Dataset names
 :---: | :---: 
