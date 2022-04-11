@@ -12,5 +12,9 @@ The proposed algorithm is based on the relation:sameAS finding the set of EN-FR 
 
 ### Dataset Overview
 We choose one well-known KG as our sources: DBpedia (2016-10) Also, We consider a cross-lingual version of DBpedia. the first is English--French. We use the SameAs algorithm to sample the original English--French entity set.
+*#* Entities | Languages | Dataset names
+:---: | :---: | :---: 
+100K | Cross-lingual | DBP(EN-FR)
+
 
 
