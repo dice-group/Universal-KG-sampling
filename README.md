@@ -23,7 +23,7 @@ Raw Entities | Dataset names
 1,359,645| FR-EN
 
 * Merge EN-FR and FR-EN,the number of the merged entities is 1,359,645 .
-* Using the relationship triplet as a filter apply on merged EN-FR entities which we obtained from last step.we can find the reltion triples from http://downloads.dbpedia.org/2016-10/core-i18n/en/mappingbased_objects_en.ttl.bz2(for EN) and  http://downloads.dbpedia.org/2016-10/core-i18n/fr/mappingbased_objects_fr.ttl.bz2(for FR) 
+* Using the relationship triplet as a filter apply on merged EN-FR entities which we obtained from last step.we can find the reltion triples from http://downloads.dbpedia.org/2016-10/core-i18n/en/mappingbased_objects_en.ttl.bz2 (EN) and  http://downloads.dbpedia.org/2016-10/core-i18n/fr/mappingbased_objects_fr.ttl.bz2 (FR) 
 
 Filtered Entities  | Dataset names
 :---: | :---: 
