@@ -17,7 +17,7 @@ We choose one well-known KG as our sources: DBpedia (2016-10) Also, We consider 
 * Get the original EN-FR data set from DBpedia, including entities and relation triples.
 * Find the SameAS relation between EN_FR entities and FR_EN entities, ensure the entities are present in both KGs. EN_FR entities can be computed from http://downloads.dbpedia.org/2016-10/core-i18n/en/interlanguage_links_en.ttl.bz2 ,FR_EN entities can be computed from http://downloads.dbpedia.org/2016-10/core-i18n/fr/interlanguage_links_fr.ttl.bz2
 
-** Raw Entities | Dataset names
+Raw Entities | Dataset names
 :---: | :---: 
 1,359,645| EN-FR
 1,359,645| FR-EN
@@ -25,7 +25,7 @@ We choose one well-known KG as our sources: DBpedia (2016-10) Also, We consider 
 * Merge EN-FR and FR-EN,the number of the merged entities is 1,359,645 .
 * Using the relationship triplet as a filter apply on merged EN-FR entities which we obtained from last step.we can find the reltion triples from http://downloads.dbpedia.org/2016-10/core-i18n/en/mappingbased_objects_en.ttl.bz2(for EN) and  http://downloads.dbpedia.org/2016-10/core-i18n/fr/mappingbased_objects_fr.ttl.bz2(for FR) 
 
-** Filtered Entities  | Dataset names
+Filtered Entities  | Dataset names
 :---: | :---: 
 526907| DBP(EN-FR)
 
