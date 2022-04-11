@@ -17,7 +17,8 @@ We choose one well-known KG as our sources: DBpedia (2016-10) Also, We consider 
 526907 | Cross-lingual | DBP(EN-FR)
 
 ### The specific process of sampling and the data obtained
-* Get the original EN-FR data set from DBpedia, including entities and relationships.
+* Get the original EN-FR data set from DBpedia, including entities and relation triples.
+ http://downloads.dbpedia.org/2016-10/core-i18n/en/interlanguage_links_en.ttl.bz2 
 * Find the SameAS relation between EN_FR entities and FR_EN entities, ensure the entities are present in both KGs.
 * Merge EN-FR and FR-EN and take the merge set.
 * Using the relationship triplet as a filter apply on merged EN-FR entities which we obtained from last step.
