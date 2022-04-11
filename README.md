@@ -16,5 +16,8 @@ We choose one well-known KG as our sources: DBpedia (2016-10) Also, We consider 
 :---: | :---: | :---: 
 526907 | Cross-lingual | DBP(EN-FR)
 
+### The specific process of sampling and the data obtained
+
+####Get the original EN-FR data set from DBpedia
 
 
