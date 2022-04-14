@@ -43,10 +43,13 @@ def write_triples(file_path, triples):
 
 rel_triples_fr = read_triple_dbp_raw(file_rel_triples_FR, 'fr')
 attr_triples_fr = read_triple_dbp_raw(file_attribute_triples_FR, 'fr')
-write_triples(file_rel_FR, rel_triples)
-write_triples(file_attr_FR, attr_triples)
+write_triples(file_rel_FR, rel_triples_fr)
+write_triples(file_attr_FR, attr_triples_fr)
 
 rel_triples_en = read_triple_dbp_raw(file_rel_triples_EN, 'en')
 attr_triples_en = read_triple_dbp_raw(file_attribute_triples_EN, 'en')
+write_triples(file_rel_EN, rel_triples_en)
+write_triples(file_attr_EN, attr_triples_en)
+
 
 
