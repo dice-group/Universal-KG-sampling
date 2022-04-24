@@ -7,7 +7,7 @@ As the DBpedia dataset has many similarities to real-world KGs, experiments can 
 ### SameAS based Sampling
 The proposed algorithm is based on the relation:SameAS finding the set of English--French entity linkings from the original DBpedia-EN and DBpedia-FR, for each entity there is at least one set of relationship triples, the following diagram depicts the sampling process.
 <p>
-  <img width="50%" src="https://github.com/dice-group/Universal-KG-sampling/blob/main/sampling.png" />
+  <img width="50%" src="https://github.com/dice-group/Universal-KG-sampling/blob/main/sampling_process.png" />
 </p>
 
 ### Dataset Overview
